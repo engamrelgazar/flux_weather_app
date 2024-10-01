@@ -84,6 +84,20 @@ Contributions are welcome to improve the app! Feel free to submit a pull request
 
 ---
 
+## 📥 Download the APK
+
+### Select the version that fits your device:
+
+| Version | Download Link | File Size |
+|---------|----------------|-----------|
+| armeabi-v7a (32-bit) | [Download](https://drive.google.com/file/d/1N9Er_xwRM1d12oOcAc1eeqJY18QTHUIQ/view?usp=sharing) | 7.2MB |
+| arm64-v8a (64-bit) | [Download](https://drive.google.com/file/d/1bUSUZfPw84umrjaoK9UfEOYvW3KAgQuD/view?usp=sharing) | 7.7MB |
+| x86_64 (64-bit) | [Download](https://drive.google.com/file/d/1zQucyk28VBijb_TkmpcMTUNBcZSqvotO/view?usp=sharing) | 7.8MB |
+
+### Click the button below to download the **arm64-v8a (64-bit)** version:
+
+[![Download APK](https://i.ibb.co/PTBmcRr/fall-guys-android.png)](https://drive.google.com/file/d/1bUSUZfPw84umrjaoK9UfEOYvW3KAgQuD/view?usp=sharing)
+
 ## 📜 License
 
 This project is licensed under the MIT License. For more details, see [LICENSE](./LICENSE).

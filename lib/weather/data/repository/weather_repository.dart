@@ -3,11 +3,11 @@ import 'package:flux_weather_app/weather/domain/entities/weather.dart';
 import 'package:flux_weather_app/weather/domain/repository/base_weather_repository.dart';
 
 class WeatherRepository implements BaseWeatherRepository {
-  final RemoteDataSource remoteDataSource;
+  final BaseRemoteDataSource baseRemoteDataSource;
 
-  WeatherRepository({required this.remoteDataSource});
+  WeatherRepository({required this.baseRemoteDataSource});
   @override
   Future<Weather> getWeatherByLocation(double lon, double lat) async {
-    return await remoteDataSource.getWeatherByLocation(lon, lat);
+    return await baseRemoteDataSource.getWeatherByLocation(lon, lat);
   }
 }

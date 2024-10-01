@@ -14,7 +14,7 @@ class WeatherApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => WeatherBloc(
         GetWeatherByLocation(
-          repository: WeatherRepository(remoteDataSource: RemoteDataSource()),
+          repository: WeatherRepository(baseRemoteDataSource: RemoteDataSource()),
         ),
       ),
       child: MaterialApp(

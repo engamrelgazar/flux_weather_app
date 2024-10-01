@@ -1,0 +1,59 @@
+name: flux_weather_app
+description: "Weather App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  bloc: ^8.1.4
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  geolocator: ^13.0.1
+  path_provider: ^2.1.4
+  rename_app: ^1.6.1
+  screenshot: ^3.0.0
+  share_plus: ^10.0.2
+  shared_preferences: ^2.3.2
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.jpg"
+  min_sdk_android: 19 
+  web:
+    generate: true
+    image_path: "assets/logo.jpg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo.jpg"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo.jpg"
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo.jpg
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: fonts/RobotoSlab-VariableFont_wght.ttf

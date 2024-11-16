@@ -98,6 +98,8 @@ Contributions are welcome to improve the app! Feel free to submit a pull request
 
 [![Download APK](https://i.ibb.co/PTBmcRr/fall-guys-android.png)](https://drive.google.com/file/d/1bUSUZfPw84umrjaoK9UfEOYvW3KAgQuD/view?usp=sharing)
 
+
+[Click here to try the app on Appetize.io](https://appetize.io/app/b_5cxmyywj6vt2k7qzefej6viwhq)
 ## 📜 License
 
 This project is licensed under the MIT License. For more details, see [LICENSE](./LICENSE).
@@ -112,3 +114,6 @@ This project is licensed under the MIT License. For more details, see [LICENSE](
 ---
 
 ### ⭐ Don't forget to give the project a star if you like it!
+
+
+
